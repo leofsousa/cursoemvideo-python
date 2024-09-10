@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-computador = randint(0, 0) # Faz o computador "PENSAR"
+computador = randint(0, 5) # Faz o computador "PENSAR"
 print('\033[33m-=-' * 20)
 print('\033[34mVou pensar em um número entre 0 e 5. Tente adivinhar...')
 print('\033[33m-=-' * 20)
